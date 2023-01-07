@@ -1,0 +1,312 @@
+/* Navigation styles start*/
+
+
+
+.navigation {
+  list-style-type: none;
+  display: flex;
+  margin: 0 56%;
+}
+
+
+
+.navigation > li > button {
+    background-color: rgb(226, 106, 50);
+  color: black;
+  border: 2px solid rgb(150, 47, 47);
+  width: 10em;
+  height: 5ex;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
+  cursor: pointer;
+ margin-left: 10px;
+ margin-top: 50px;
+ margin-right: 10px;
+}
+
+.navigation > li > button:hover {
+    color: #ac3100;
+}
+
+
+
+/* Navigation styles end*/
+
+/*header start*/
+
+.header {
+  background: url(../images/banner/banner3.png);
+  width: 100%;
+  height: 808px;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.banner {
+  text-align: right;
+
+  position: absolute;
+  width: 40%;
+  height: 30%;
+  left: 52%;
+  top: 10%;
+}
+
+.banner-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 7vh;
+  line-height: 86px;
+
+  color: #ffffff;
+  margin-bottom: -10px;
+}
+
+.banner-descripton {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 2.3vh;
+  line-height: 32px;
+
+  color: #ffffff;
+  word-wrap: break-word;
+}
+
+.banner-btn {
+  width: 150px;
+  height: 54px;
+
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  border-radius: 5px;
+  border: none;
+  color: #005fac;
+}
+
+/*header start*/
+
+/* about section 1 start */
+
+.about {
+  display: flex;
+  align-items: center;
+  margin: 100px 300px;
+}
+
+.about-details {
+  position: absolute;
+  width: 20%;
+  height: 30%;
+  left: 55%;
+  top: 98%;
+}
+
+.about-title {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5vh;
+  line-height: 47px;
+  margin-bottom: 40px;
+  color: #151414;
+}
+
+.about-des {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.5vh;
+  line-height: 26px;
+  color: #444343;
+}
+
+.about-part {
+  display: flex;
+  align-items: center;
+  margin-top: -15px;
+}
+
+.about-part > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+
+  margin-left: 10px;
+  color: #444343;
+}
+
+/* about section 1 end */
+
+/* about section 2 start */
+.plans {
+  display: flex;
+  justify-content: center;
+}
+
+.items {
+  display: felx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px 80px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+
+  color: #151414;
+}
+
+.item {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+
+  text-align: center;
+
+  color: #151414;
+}
+/* about section 2 end */
+
+/* about section 3 start */
+
+.container {
+  width: 100%;
+  margin: 50px 400px;
+}
+
+#show_bg_2 {
+  background-image: linear-gradient(90deg, #005fac 0%, rgba(0, 95, 172, 0) 100%),
+    url("../images/watch.png");
+  width: 70%;
+  height: 300px;
+  background-size: cover;
+  color: white;
+  padding: 20px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.head {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  margin-top: 100px;
+  margin-left: 50px;
+  color: #ffffff;
+}
+
+.head-btn {
+  width: 160px;
+  height: 64px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  margin-left: 50px;
+  color: #005fac;
+}
+
+/* about section 3 end */
+
+/* Footer Start */
+footer {
+  background-color: #000000;
+  width: 100%;
+  margin-top: 100px;
+  height: 500px;
+}
+
+.base {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bases {
+  margin-top: 3%;
+}
+
+.bases2 {
+  margin-top: 3%;
+}
+
+.bases > h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  /* identical to box height */
+
+  color: #f8f8f8;
+}
+
+.bases2 > h2 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 29px;
+  margin-bottom: 30px;
+  color: #ffffff;
+}
+
+.bases > p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  opacity: 1; /* Firefox */
+  padding-left: 20px;
+}
+
+input[type="email"],
+textarea {
+  background-color: #000000;
+  width: 200%;
+  height: 15%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.bases2 > button {
+  width: 170.11px;
+  height: 64px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #005fac;
+  color: #ffffff;
+  border-radius: 8px;
+}
+
+/* Footer end */
