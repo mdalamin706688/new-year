@@ -1,17 +1,13 @@
 /* Navigation styles start*/
 
-
-
 .navigation {
   list-style-type: none;
   display: flex;
   margin: 0 56%;
 }
 
-
-
 .navigation > li > button {
-    background-color: rgb(226, 106, 50);
+  background-color: rgb(226, 106, 50);
   color: black;
   border: 2px solid rgb(150, 47, 47);
   width: 10em;
@@ -25,16 +21,14 @@
   border-radius: 10px;
   color: #ffffff;
   cursor: pointer;
- margin-left: 10px;
- margin-top: 50px;
- margin-right: 10px;
+  margin-left: 10px;
+  margin-top: 50px;
+  margin-right: 10px;
 }
 
 .navigation > li > button:hover {
-    color: #ac3100;
+  color: #ac3100;
 }
-
-
 
 /* Navigation styles end*/
 
@@ -93,6 +87,7 @@
   border-radius: 5px;
   border: none;
   color: #005fac;
+  cursor: pointer;
 }
 
 /*header start*/
@@ -226,6 +221,7 @@
   text-align: center;
   margin-left: 50px;
   color: #005fac;
+  cursor: pointer;
 }
 
 /* about section 3 end */
@@ -307,6 +303,7 @@ textarea {
   background-color: #005fac;
   color: #ffffff;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 /* Footer end */
